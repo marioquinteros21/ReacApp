@@ -1,5 +1,5 @@
 import React from 'react';
-
+import CardWidget from '../CardWidget/CardWidget';
 import './NavBar.css';
 
 var data = [
@@ -21,6 +21,10 @@ const NavBar = () => {
           </li>
         ))}
       </ul>
+      <CardWidget />
+
+      
+      
     </div>
   );
 };
