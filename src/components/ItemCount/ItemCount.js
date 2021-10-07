@@ -1,11 +1,10 @@
-class App extends Component {
-    constructor() {
-      super();
-      this.state = {
-        counter: 0
-      };
-    }}
-    handleIncrement = () => {
-        this.setState({ counter: this.state.counter + 1 });
-        this.setState({ counter: this.state.counter - 1 });
-    };
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+ReactDOM.render(
+	<React.StrictMode>
+		<App />
+	</React.StrictMode>,
+	document.getElementById('root')
+);

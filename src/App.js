@@ -1,15 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './App.css';
 
 import Landing from './components/Landing/Landing';
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import ItemCount from './components/ItemCount/ItemCount';
+/*import ItemCount from './components/ItemCount/ItemCount';*/
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+const App = () => {
+  const [counter, setCounter] = useState(0);
+  const handleCounterUp = () => {
+		setCounter(counter + 1);
+  };
+  const handleCounterDown = () => {
+    setCounter(counter - 1);
+    };
+
+
   return (
     <div className='App'>
       <NavBar />
@@ -18,17 +27,16 @@ function App() {
       title= 'Bienvenidos a Georgias Wines' 
       color ='white'
       />
-    </div>
-  );
-}
+    
 
-render();{
-  return (
-    <div className="App">
-      <p>{this.state.counter}</p>
-      <button onClick={this.handleIncrement}>Incrementar</button>
-      <button onClick={this.handleDecrement}>decrementar</button>
+    <div className='CounterSection'>
+    <h3>Contador: {counter}</h3>
+    <div className='btn-section'>
+      <button onClick={handleCounterUp}>Incrementar</button>
+      <button onClick={handleCounterDown}>Decrementar</button>
     </div>
+  </div>
+  </div>
   );
 }
 
