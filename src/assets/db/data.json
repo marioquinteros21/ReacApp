@@ -2,27 +2,33 @@
 "data": [{
     "id": "1",
     "name": "RABOSO",
-    "image": "https://www.saborusa.com/wp-content/uploads/2019/10/Descubre-de-donde-proviene-el-color-del-vino-Foto-destacada.png.webp"
+    "image": "https://www.saborusa.com/wp-content/uploads/2019/10/Descubre-de-donde-proviene-el-color-del-vino-Foto-destacada.png.webp",
+    "precio":"750"
 }, {
     "id": "2",
     "name": "MALBEC",
-    "image": "https://laprensadelrioja.com/wp-content/uploads/2020/02/copa_generica-696x418.jpg"
+    "image": "https://laprensadelrioja.com/wp-content/uploads/2020/02/copa_generica-696x418.jpg",
+    "precio":"750"
 }, {
     "id": "3",
     "name": "CABERNET",
-    "image": "https://s1.eestatic.com/2019/10/07/actualidad/actualidad_434966718_134633780_854x640.jpg"
+    "image": "https://s1.eestatic.com/2019/10/07/actualidad/actualidad_434966718_134633780_854x640.jpg",
+    "precio":"750"
 }, {
     "id": "4",
     "name": "SYRAH",
-    "image": "https://s1.eestatic.com/2019/10/07/actualidad/actualidad_434966722_134633904_854x640.jpg"
+    "image": "https://s1.eestatic.com/2019/10/07/actualidad/actualidad_434966722_134633904_854x640.jpg",
+    "precio":"750"
 }, {
     "id": "5",
     "name": "CABERNET SAUVIGNON",
-    "image": "https://saboryestilo.com.mx/wp-content/uploads/2020/08/Vino-Definicion.jpg"
+    "image": "https://saboryestilo.com.mx/wp-content/uploads/2020/08/Vino-Definicion.jpg",
+    "precio":"750"
 }, {
     "id": "6",
     "name": "MERLOT",
-    "image": "https://saborgourmet.com//wp-content/uploads/tipos-de-vinos-tintos-maridaje-clasificacion.jpg"
+    "image": "https://saborgourmet.com//wp-content/uploads/tipos-de-vinos-tintos-maridaje-clasificacion.jpg",
+    "precio":"750"
 }]  
 
 }   
